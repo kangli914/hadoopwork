@@ -17,3 +17,6 @@ say you have RDD holding the a table below, the content of this RDD is entirely 
 #### DAG, Lineage for RDD Action and Transformation:
 * All the transformation on the dataset are set up as a directed acyclic graph (DAG). The nodes in the graphs are the actual operations performed on the data. Once we have this DAG setup, when an actions is requested, Spark can efficiently compute the best possible way to process the data, execute operation in parallel, and return the result to the user.
 * The chain of transformations are tracked in medtadata by the Spark. This is called the lineage of an RDD. Every RDD in Spark is aware of its own lineage back to the original so RDD can be re-constructed by lineage medtadata.
+
+#### Difference of Dataset and Dataframe: (very confused!!!)
+![alt](https://github.com/kangli914/hadoopwork/blob/master/spark/dataframe_dataset.png "dataset")
