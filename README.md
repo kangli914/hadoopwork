@@ -2,6 +2,7 @@
 My work and note stuff including Hadoop ecosystem
  
 ## Spark notes:
+Spark on distributed mode on the Hadoop cluster managed by YARN as cluster manager. In the cluster, there is a master and x number of workers. YARN became the sub-project of Hadoop in the year 2012. It is also known as MapReduce 2.0.
 ### Architecture
 ![alt](https://github.com/kangli914/hadoopwork/blob/master/spark/spark_architecture_notesadded.png "Spark running in Hadoop clusters managed by YARN")
 
