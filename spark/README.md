@@ -8,7 +8,7 @@ Notes and instructions on setting up a full functioning development enviroment i
 
 ### Prerequisites
 
-What things are needed to install to setup a full development enviroments including Hadoop clusters
+Things are needed to install to setup a full development enviroments including Hadoop clusters
 
 * IDE: Intellij and Scala plugins 
 * Build Dependency tool: SBT 
