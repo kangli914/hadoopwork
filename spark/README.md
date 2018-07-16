@@ -2,7 +2,7 @@
 
 Going through the setup, Spark programming stuff 
 
-## Setup and facing issues and  more Notes
+## Setup and facing issues
 
 Notes and instructions on setting up a full functioning development enviroment is as belows
 
