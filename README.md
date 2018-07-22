@@ -7,10 +7,7 @@ Verious note on Hadoop performance aspects
 Hadoop use resource schedulers to allocate the resources among the multiple tenants of a Hadoop cluster. Hadoop resource schedulers are components that are responsible for assigning tasks to available YARN containers (e.g Memory & CPU cores) on various DataNodes. The scheduler is a plug-in within the Resource Manager.
 Hadoop comes with three different types of resource schedulers.
 * FIFO Scheduler: a single queue for all jobs. There’s no concept of priority in choosing a job for execution, with the oldest jobs getting chosen first from the head of the queue.
-* Capacity Scheduler: 
-** it uses dedicated queues to which you assign jobs. Each queue has a predetermined amount of resources allocated to it.
-and guaranteeing queue resource capacities
-** It guarantees minimum capacity levels for all of a cluster’s job queues. If there’s any unused capacity left over from a job queue, the scheduler makes the excess capacity available to queues that are overloaded, thus optimizing the usage of a cluster’s resources.
+* Capacity Scheduler: it uses dedicated queues to which you assign jobs. Each queue has a predetermined amount of resources allocated to it. It guarantees minimum capacity levels for all of a cluster’s job queues. If there’s any unused capacity left over from a job queue, the scheduler makes the excess capacity available to queues that are overloaded, thus optimizing the usage of a cluster’s resources.
  
  
  
