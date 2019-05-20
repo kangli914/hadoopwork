@@ -33,3 +33,6 @@ say you have RDD holding the a table below, the content of this RDD is entirely 
 * Spark2 unified the APIs
 * Dataframe = Dataset[Row]
 ![alt](https://github.com/kangli914/hadoopwork/blob/master/spark/dataframe_dataset.png "dataset")
+
+### Miscellaneous Notes
+![alt](https://github.com/kangli914/hadoopwork/blob/master/spark/note.jpg "note")
